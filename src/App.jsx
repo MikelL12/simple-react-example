@@ -18,7 +18,7 @@ const App = () => {
   
   const updateScores = (winner) => {
     if(winner === "Player"){
-    setPlayerScore(playerScore + 1);
+    setPlayerScore(playerScore + 2);
     } else if (winner === "Computer"){
     setComputerScore(computerScore + 1);
     }
